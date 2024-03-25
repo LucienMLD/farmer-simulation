@@ -1,0 +1,42 @@
+fr:
+  layouts:
+    navbar:
+      profile: Mon compte
+  back: "Retour"
+  home: "Accueil"
+  users:
+    show:
+      title: "Mon compte"
+  pages:
+    dashboard: "Tableau de bord"
+    new_farm: "Créer une ferme"
+    farm: "Ferme"
+    material_types: "Catégories de matériel"
+  partials:
+    widgets:
+      engage:
+        no_farm:
+          you_have_no_farm: "Vous n’avez pas de ferme !"
+          build_a_farm: "Créer une ferme"
+      maps:
+        farm:
+          properties: "Propriétés"
+  farms:
+    new:
+      create_my_farm: "Créer ma ferme"
+      submit: "Valider"
+      info: "Informations"
+      only_france: "Seules les villes françaises sont disponibles pour le moment."
+    create:
+      farm_created: "La ferme a été créée avec succès."
+  errors:
+    form_not_valid: "Le formulaire comporte des erreurs."
+  layout:
+    partials:
+      sidebar-layout:
+        sidebar:
+          menu:
+            sales:
+              by_type: "Par catégorie"
+              by_brand: "Par marque"
+            material_sales: "Vente de materiel"

@@ -1,0 +1,14 @@
+- content_for :title do
+  = t('pages.farm')
+
+- content_for :breadcrumbs do
+  = build_breadcrumbs(t('pages.farm'))
+
+- content_for :layout do
+  .row.g-5.g-xl-10.mb-5.mb-xl-10
+    - if current_user.farm.blank?
+      .col-xxl-6
+        = render 'no_farm'
+
+    .col-xl-6.mb-5.mb-xl-1
+      = render 'map'

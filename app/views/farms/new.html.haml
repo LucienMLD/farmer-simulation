@@ -1,0 +1,28 @@
+- content_for :title do
+  = t('pages.new_farm')
+
+- content_for :breadcrumbs do
+  = build_breadcrumbs(t('pages.new_farm'))
+
+- content_for :layout do
+  .row.g-5.g-xl-10.mb-5.mb-xl-10
+    .alert.alert-primary.d-flex.align-items-center.p-5.mb-10
+      %i.ki-duotone.ki-shield-tick.fs-2hx.text-primary.me-4
+        %span.path1
+        %span.path2
+      .d-flex.flex-column
+        %h4.mb-1.text-primary= t('.info')
+        %span= t('.only_france')
+    .col-md-8.offset-md-2.col-12
+      .card.shadow-sm
+        .card-header
+          %h3.card-title= t('.create_my_farm')
+        .card-body
+          = simple_form_for @farm, html: { 'data-turbo': "false" } do |f|
+            = f.input :name
+            = f.input :city, input_html: {class: "d-none", data: {address_autocomplete_target: "address"}},
+            wrapper_html: {data: {controller: "address-autocomplete", address_autocomplete_api_key_value: ENV["CITY_AUTOCOMPLETE"]}}
+            %fieldset{ disabled: 'disabled'}
+              = f.input :country, only: ["FR"], selected: "FR"
+            = f.button :submit, t('.submit')
+

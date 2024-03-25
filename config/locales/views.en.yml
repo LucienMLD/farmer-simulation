@@ -1,0 +1,43 @@
+en:
+  layouts:
+    navbar:
+      profile: My account
+  back: "Back"
+  home: "Home"
+  users:
+    show:
+      title: "My account"
+  pages:
+    dashboard: "Dashboard"
+    new_farm: "Create a farm"
+    farm: "Farm"
+    material_types: "Material category"
+  partials:
+    widgets:
+      engage:
+        no_farm:
+          you_have_no_farm: "You haven’t a farm !"
+          build_a_farm: "Create a farm"
+      maps:
+        farm:
+          properties: "Properties"
+  farms:
+    new:
+      create_my_farm: "Create my farm"
+      submit: "Submit"
+      info: "Informations"
+      only_france: "Only French cities are available at the moment."
+    create:
+      farm_created: "Farm was successfully created."
+  errors:
+    form_not_valid: "The form has errors."
+  layout:
+    partials:
+      sidebar-layout:
+        sidebar:
+          menu:
+            my_company: "My company"
+            material_sales: "Material sales"
+            sales:
+              by_type: "By category"
+              by_brand: "By brand"
