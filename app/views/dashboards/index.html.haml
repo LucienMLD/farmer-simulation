@@ -1,0 +1,33 @@
+- content_for :title do
+  = t('pages.dashboard')
+- content_for :layout do
+  .row.g-5.g-xl-10.mb-5.mb-xl-10
+    - if current_user.farm.blank?
+      .col-xxl-6
+        -# = render 'partials/widgets/engage/no_farm'
+  -#   .col-md-6.col-lg-6.col-xl-6.col-xxl-3.mb-md-5.mb-xl-10
+  -#     = render 'partials/widgets/cards/widget-20'
+  -#     = render 'partials/widgets/cards/widget-7'
+  -#   .col-md-6.col-lg-6.col-xl-6.col-xxl-3.mb-md-5.mb-xl-10
+  -#     = render 'partials/widgets/cards/widget-17'
+  -#     = render 'partials/widgets/lists/widget-26'
+  -# .row.gx-5.gx-xl-10
+  -#   .col-xxl-6.mb-5.mb-xl-10
+  -#     = render 'partials/widgets/charts/widget-8'
+  -#   .col-xl-6.mb-5.mb-xl-10
+  -#     = render 'partials/widgets/tables/widget-16'
+  -# .row.g-5.g-xl-10.mb-5.mb-xl-10
+  -#   .col-xxl-6
+  -#     = render 'partials/widgets/cards/widget-18'
+  -#   .col-xl-6
+  -#     = render 'partials/widgets/charts/widget-36'
+  -# .row.g-5.g-xl-10.mb-5.mb-xl-10
+  -#   .col-xl-4
+  -#     = render 'partials/widgets/charts/widget-35'
+  -#   .col-xl-8
+  -#     = render 'partials/widgets/tables/widget-14'
+  -# .row.gx-5.gx-xl-10
+  -#   .col-xl-4
+  -#     = render 'partials/widgets/charts/widget-31'
+  -#   .col-xl-8
+  -#     = render 'partials/widgets/charts/widget-24'

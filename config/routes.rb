@@ -7,6 +7,9 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   root "pages#index"
 
+  controller :dashboards do
+    get :index, as: :dashboard, path: :dashboard
+  end
   resources :farms
 end
 
