@@ -23,5 +23,5 @@ pin 'suggestions', to: 'https://ga.jspm.io/npm:suggestions@1.7.1/index.js'
 pin 'xtend', to: 'https://ga.jspm.io/npm:xtend@4.0.2/immutable.js'
 pin 'mapbox-gl', to: 'https://ga.jspm.io/npm:mapbox-gl@2.15.0/dist/mapbox-gl.js'
 pin 'process', to: 'https://ga.jspm.io/npm:@jspm/core@2.0.1/nodelibs/browser/process-production.js'
-pin 'foundation-sites' # @6.8.1
-pin 'jquery' # @3.7.1
+pin "popper", to: 'popper.js', preload: true
+pin "bootstrap", to: 'bootstrap.min.js', preload: true
