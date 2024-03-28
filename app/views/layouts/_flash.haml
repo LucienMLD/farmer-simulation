@@ -1,0 +1,10 @@
+- if flash.any?
+  .bg-body-secondary.position-relative.bd-example-toasts.rounded-3{ aria: { atomic: "true", live: "polite" } }
+    .toast-container.p-3.top-0.end-0
+      - flash.each do |flash_type, message|
+        .toast.show.align-items-center.border-0{ class: "#{flash_type}", "aria-atomic" => "true", "aria-live" => "assertive", role: "alert"}
+          .d-flex
+            .toast-body
+              = message
+            %button.btn-close.btn-close-white.me-2.m-auto{ "aria-label":  "Close", "data-bs-dismss": "toast", type: "button" }
+
