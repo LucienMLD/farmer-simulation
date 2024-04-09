@@ -22,6 +22,11 @@ fr:
       country: "Pays"
       city: "Ville"
       address: "Adresse"
+      user:
+        email: "Email"
+        password: "Mot de passe"
+        username: "Nom d’utilisateur"
+        password_confirmation: "Confirmation du mot de passe"
   site_name: "Farm Manager Simulation"
   date:
     abbr_day_names:

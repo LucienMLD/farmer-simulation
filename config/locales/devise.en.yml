@@ -36,6 +36,8 @@ en:
       send_paranoid_instructions: "If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes."
       updated: "Your password has been changed successfully. You are now signed in."
       updated_not_active: "Your password has been changed successfully."
+      instructions: "Send me reset password instructions"
+      update: "Save"
     registrations:
       destroyed: "Bye! Your account has been successfully cancelled. We hope to see you again soon."
       signed_up: "Welcome! You have signed up successfully."
@@ -53,6 +55,8 @@ en:
       sign_in: "Sign in"
       new:
         or_email: "Or with email"
+      remember_me: "Remember me"
+      change_password: "New password"
     unlocks:
       send_instructions: "You will receive an email with instructions for how to unlock your account in a few minutes."
       send_paranoid_instructions: "If your account exists, you will receive an email with instructions for how to unlock it in a few minutes."

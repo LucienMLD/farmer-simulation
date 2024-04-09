@@ -36,6 +36,9 @@ fr:
       send_paranoid_instructions: "Si votre e-mail existe dans notre base de données, vous allez recevoir un lien de réinitialisation par e-mail."
       updated: "Votre mot de passe a été édité avec succès, vous êtes maintenant connecté."
       updated_not_active: "Votre mot de passe a été changé avec succès."
+      instructions: "Envoyer les instructions"
+      update: "Enregistrer"
+      password: "Nouveau mot de passe"
     registrations:
       destroyed: "Votre compte a été supprimé avec succès. Nous espérons vous revoir bientôt."
       signed_up: "Bienvenue, vous êtes connecté."
@@ -57,6 +60,7 @@ fr:
       forgot_password: "Mot de passe oublié"
       sign_out: "Se déconnecter"
       sign_in: "Se connecter"
+      change_password: "Nouveau mot de passe"
     unlocks:
       send_instructions: "Vous allez recevoir les instructions nécessaires au déverrouillage de votre compte dans quelques instants."
       send_paranoid_instructions: "Si votre compte existe, vous allez bientôt recevoir un email contenant les instructions pour le déverrouiller."
